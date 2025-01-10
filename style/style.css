@@ -1,0 +1,43 @@
+.bangla{
+    display: flex;
+    justify-content: space-around;
+}
+#btn-1{
+    background-color: white;
+    border: solid;
+    border-color: #006A50;
+    border-radius: 8px;
+    color:#006A50 ;
+    padding: 30px;
+}
+.hedar{
+    display: flex;
+    background-color: #C6E4D6;
+    margin: 120px 160px;
+    border-radius: 24px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.hedar-contants{
+    padding: 50px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 500px;
+    color:rgba(14, 14, 14, 0.5);
+    
+}
+.hedar-discription{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 0px;
+}
+.btn-2{
+    background-color: #006A50;
+    border-radius: 8px;
+    color: white;
+    padding: 34px;
+
+}
