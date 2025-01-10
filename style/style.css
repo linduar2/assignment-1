@@ -1,5 +1,6 @@
 main{
     margin: 0px 160px;
+    
 }
 
 
@@ -14,7 +15,7 @@ main{
     border-color: #006A50;
     border-radius: 8px;
     color:#006A50 ;
-    padding: 30px;
+    padding: 17px 34px;
 }
 .hedar{
     display: flex;
@@ -45,7 +46,7 @@ main{
     border-radius: 8px;
     border: none;
     color: white;
-    padding: 34px;
+    padding: 17px 34px;
     font-size: 18px;
     font-weight: 600px;
 
@@ -54,7 +55,7 @@ main{
 
 
 
-/* section style */
+/* section_1 style */
 .section-title{
     font-size: 40px;
     font-weight: bold;
@@ -89,7 +90,7 @@ main{
 .btn-3{
     background-color: #5490F5;
     border-radius: 8px;
-    padding: 20px;
+    padding: 11px 20px;
     color: white;
     font-size: 16px;
     font-weight: 600px;
@@ -98,7 +99,7 @@ main{
 .btn-4{
     background-color: #006A50;
     border-radius: 8px;
-    padding: 20px;
+    padding: 11px 20px;
     color: white;
     font-size: 16px;
     font-weight: 600px;
@@ -107,9 +108,50 @@ main{
 .btn-5{
 background-color: #FFC239;
     border-radius: 8px;
-    padding: 20px;
+    padding: 11px 20px;
     color: white;
     font-size: 16px;
     font-weight: 600px;
     border: none;
 }
+
+/* section-2 style */
+
+.news-container{
+    display: flex;
+    background-color:#ffff;
+    border-radius: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 32px;
+    padding: 48px;
+}
+.news-image{
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+.news-dt{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.btn-6{
+    background-color: #006A50;
+    padding: 13px 26px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    border: none;
+    border-radius: 8px;
+
+}
+.news{
+    
+    gap: 30px;
+
+}
+
