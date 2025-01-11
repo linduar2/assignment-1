@@ -1,13 +1,15 @@
+
 main{
     margin: 0px 160px;
     
 }
 
 
-
+/* header-1 style */
 .bangla{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 160px;
 }
 #btn-1{
     background-color: white;
@@ -15,12 +17,13 @@ main{
     border-color: #006A50;
     border-radius: 8px;
     color:#006A50 ;
-    padding: 17px 34px;
+    padding: 10px 30px;
 }
+/* header-2 style */
 .hedar{
     display: flex;
     background-color: #C6E4D6;
-    margin: 120px 160px;
+    margin: 20px 160px;
     border-radius: 24px;
     justify-content: space-around;
     align-items: center;
@@ -114,8 +117,54 @@ background-color: #FFC239;
     font-weight: 600px;
     border: none;
 }
+/* sextion-2 style */
+.yunus-quote{
+    background-image: url(../assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.20);
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+.yunus{
+    margin-bottom: 0px;
+}
+/* section-3 style */
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+   border-color: rgba(14, 14, 14, 0.15);
+    padding: 20px;
+}
+thead{
+    background-color: rgba(198, 228, 214, 1);
+}
+.opinion-btn{
+    background-color: rgba(198, 228, 214, 1) ;
+    border-radius: 3px;
+    padding: 10px;
+}
+.table-s{
+    
+   
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 16px;
 
-/* section-2 style */
+
+}
+.question{
+    padding-right: 400px;
+
+}
+
+
+/* section-4 style */
 
 .news-container{
     display: flex;
@@ -124,6 +173,7 @@ background-color: #FFC239;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     gap: 32px;
     padding: 48px;
+    margin-top: 30px;
 }
 .news-image{
     border-radius: 24px;
@@ -155,3 +205,74 @@ background-color: #FFC239;
 
 }
 
+/* section-5 style */
+.don{
+    text-align: center;
+    margin: 0px 10px;
+}
+.btn-7{
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0px 5px;
+    
+}
+.btn-8{
+    background-color: rgba(198, 228, 214, 1);
+}
+.input{
+    width: 100%;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    margin: 30px 0px 10px 0px;
+    padding: 10px;
+    border: none;
+
+}
+/* section-6 style */
+.sub{
+    text-align: center;
+    background-color:#C6E4D6 ;
+    border-radius: 24px;
+    margin: 80px 0px;
+    padding: 80px 100px;
+    
+}
+.input-2{
+    width: 600px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 0px;
+}
+.btn-9{
+    padding: 15px 40px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: 0px;
+    background-color: #006A50;
+}
+.input-btn{
+    display: flex;
+    gap:0px;
+    text-align: center;
+    padding: 0px 30px;
+
+}
+/* footer style */
+
+.foot-container{
+    text-align: center;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    padding: 50px 160px;
+    margin-bottom: 0px;
+
+}
+.icon{
+    margin: 10px 20px;
+}
